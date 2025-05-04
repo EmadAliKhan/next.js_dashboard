@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import React from "react";
 
 import RegisterStudent from "@/components/ecommerce/RegisterStudents";
+import SchoolContentForm from "./(admin)/mainPage/page";
 
 export const metadata: Metadata = {
   title:
@@ -35,7 +36,8 @@ export default function Ecommerce() {
     //   </div>
     // </div>
     <div>
-      <RegisterStudent/>
+      {/* <RegisterStudent/> */}
+      <SchoolContentForm/>
     </div>
   );
 }
